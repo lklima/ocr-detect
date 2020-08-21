@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const vision = require("@google-cloud/vision");
-// Creates a client
+// Criando o cliente
 const client = new vision.ImageAnnotatorClient({
   keyFilename: "key.json",
 });
